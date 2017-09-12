@@ -1,0 +1,16 @@
+#crate environment
+conda create -n sample_env python=3
+#show all environments
+conda info --envs
+#switch into environment
+activate sample_env
+#show packages  
+conda list
+#install new package
+conda install new_package
+#export environment config
+conda env export > sample_env.yaml
+#import config from file
+conda env create -f sample_env.yaml
+#delete environment
+conda env remove -n sample_env
