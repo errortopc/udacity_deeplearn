@@ -8,6 +8,8 @@ activate sample_env
 conda list
 #install new package
 conda install new_package
+#install new package via pip
+pip install [package name]
 #export environment config
 conda env export > sample_env.yaml
 #import config from file
