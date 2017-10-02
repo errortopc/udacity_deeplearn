@@ -1,0 +1,2 @@
++ Hiddenlayer doppelt so viele wie input nodes
++ 
